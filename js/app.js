@@ -15,7 +15,7 @@ const translations = {
     }
 };
 
-const languageSelectop = document.querySelector("select");
+const languageSelector = document.querySelector("select");
 let h1 = document.querySelector("h1");
 let h3 = document.querySelector("#h3");
 let firstPar = document.querySelector("#par-1");

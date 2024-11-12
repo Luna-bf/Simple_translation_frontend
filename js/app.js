@@ -22,7 +22,7 @@ let firstPar = document.querySelector("#par-1");
 let secondPar = document.querySelector("#par-2");
 let thirdPar = document.querySelector("#par-3");
 
-languageSelectop.addEventListener("change", (event) => {
+languageSelector.addEventListener("change", (event) => {
     setLanguage(event.target.value);
 });
 

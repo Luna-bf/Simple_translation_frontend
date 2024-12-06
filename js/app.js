@@ -27,14 +27,14 @@ languageSelector.addEventListener("change", (event) => {
 });
 
 const setLanguage = (language) => {
-    if(language == "fr") {
+    if(language === "fr") {
         h1.innerText = translations.fr.select;
         h3.innerText = translations.fr.h3;
         firstPar.innerText= translations.fr.firstPar;
         secondPar.innerText= translations.fr.secondPar;
         thirdPar.innerText= translations.fr.thirdPar;
         
-    } else if(language == "en") {
+    } else if(language === "en") {
         h1.innerText = translations.en.select;
         h3.innerText = translations.en.h3;
         firstPar.innerText= translations.en.firstPar;
